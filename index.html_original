@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Espais cedits - Universitat Jaume I</title>
+
+        <link rel="stylesheet" href="https://mewtoo.uji.es/resources/css/foundation-font-reset.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://mewtoo.uji.es/resources/css/base_css.css" rel="stylesheet" type="text/css" media="screen"/>
+
+        <link rel="stylesheet" href="http://mewtoo.uji.es/resources/css/sso_alma.css" media="only screen and (min-device-width: 961px)"/>
+
+        <link href="https://mewtoo.uji.es/resources/css/base_new.css" rel="stylesheet" type="text/css"/>
+
+        <link href="https://mewtoo.uji.es/resources/css/adapta2021.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body class="ujibody" style="zoom: 1;" data-feedly-mini="yes">
+        <header>
+
+            <div class="wrap flex flex-space-between hide-for-print">
+                <!-- Start Logos -->
+                <div class="flex flex-center">
+                    <a href="https://www.uji.es/">
+                        <h1 aria-label="Universitat Jaume I">
+                            <img class="hide-medium" src="https://mewtoo.uji.es/resources/img/marcauji.png" alt="Universitat Jaume I"
+                                 title="Universitat Jaume I">
+                            <img class="hide-large" src="https://mewtoo.uji.es/resources/img/simboluji.png" alt="Universitat Jaume I"
+                                 title="Universitat Jaume I">
+                        </h1>
+                    </a>
+                    <div class="title-page hide-medium">Espais cedits</div>
+                    <div class="title-page hide-large">Espais cedits</div>
+                </div>
+                <!-- End Logos -->
+                <!-- Start Menu -->
+                <div class="flex flex-center">
+                    <div class="flex idioma" role="none">
+                    </div>
+                                    </div>
+                <!-- End Menu -->
+
+            </div>
+
+        </header>
+
+        <div id="mySidenav" class="sidenav wrap hide-large" style="display: none;">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+            <div class="flex flex-center">
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="contenido-sso" class="bloque">
+
+                <!-- CONTENT -->
+                <div id="page-content" style="text-align: center;margin: 50px 0 50px 0;">
+                      <h1 style="margin-bottom: 50px;">Espai cedit en construcció</h1>
+                      <h3 style="font-size: 1em !important;">Important</h3>
+                      <ul>
+                      <li style="list-style: disclosure-closed;text-align: left;"><a href="https://universitatjaumei.atlassian.net/wiki/spaces/MANUJI/pages/5216501956" style="color: #002744;border-bottom: 1px dotted #9bd;">Manual d'ús espais cedits</a></li>
+                      <li style="list-style: disclosure-closed;text-align: left;">L'espai cedit ha d'incloure un text legal com s'indica en els criteris de cessió dels espais cedits web a la Universitat Jaume I de Castelló al peu de la primera pàgina d'inici que informe del responsable d'aquest espai.</li>
+                      </ul>
+                </div>
+                
+                <p id="normes_us" class="bloque" style="">
+                    <strong>Pel fet d'accedir als sistemes d'informació i recursos TI de la Universitat Jaume I qualsevol persona està obligada a complir les <a href="https://www.uji.es/serveis/si/serveis/normativa/mitjans?idioma=ca">Normes d'ús dels mitjans informàtics</a> i atendre a les possibles <a href="https://www.uji.es/serveis/si/serveis/normativa/mitjans?idioma=ca#7">conseqüències del seu incompliment</a>.</strong>
+                </p>
+
+                <!-- FIN CONTENT -->
+
+            </div>
+
+        </div>
+
+
+        <footer class="hide-for-print">
+            <div class="barTop"></div>
+            <div class="responsive-padding-horizontal">
+                <div class="wrap">
+                    <p class="flex flex-center flex-wrap">
+                        <a href="https://www.uji.es/comu/forms/bustia" target="_blank">B&#250;stia UJI</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.uji.es/organs/ouag/sg/docs/politiques/gen/">Centre de seguretat i privacitat</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.uji.es/comu/avislegal/avislegalicondicions/">Avís legal</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.uji.es/serveis/ura/base/accessibilitat/">Política d'accessibilitat</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.uji.es/mapa/">Mapa web</a>
+                    </p>
+                    <div class="mediumText lineFooter">
+                        <p>Universitat Jaume I CIF: Q-6250003-H Av. Vicent Sos Baynat, s/n 12071
+                            Castelló de la Plana,
+                            Espanya
+                        </p>
+                        <p>Tel.: +34 964 72 80 00</p>
+                    </div>
+                    <div class="logos-peu">
+                        <a target="_blank" href="//www.uji.es/comu/ens/ens.pdf" ><p hidden>ENS</p></a>
+                        <a target="_blank" href="//www.uji.es/investigacio/hrs4r"><p hidden>HRS4R</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

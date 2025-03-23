@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta name="author" content="Rosa M Badia">
+    <meta name="description" content="Twenty-third International Workshop on Algorithms, Models and Tools for Parallel Computing on Heterogeneous Platforms">
+    <meta name="keywords" content="keywords, here">
+    <meta name="robots" content="index, follow">
+
+
+    <meta property="og:title" content="HeteroPar'2025" />
+    <meta property="og:description" content="23rd International Workshop on Algorithms, Models and Tools for Parallel Computing on Heterogeneous Platforms" />
+    <meta property="og:image" content="./images/hetero.jpg" />
+    
+    
+    <title>HeteroPar 2025</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="smoothscroll.js"></script>
+</head>
+<body>
+   
+    <div id="main">
+
+        <!-- Header -->
+        <div id="header">
+            <header class="wrapper">
+                <h1>HeteroPar 2025</h1>
+                <h2>23rd International Workshop</h2>
+                <p>Algorithms, Models and Tools for Parallel Computing on Heterogeneous Platforms</p>
+                <p>[Date TBC], 2025 - Dresden, Germany</p>
+            </header>
+        </div>
+
+        <nav id="nav" class="navigation wrapper">
+            <ul>
+                <li><a href="./index.html#welcome">Welcome</a></li>
+                <li><a href="./index.html#workshop">Workshop Scope</a></li>
+                <li><a class="scroll" href="./index.html#program">Program</a></li>
+                <li><a class="scroll" href="./index.html#keynote">Keynote</a></li>
+                <li><a class="scroll" href="./index.html#info-authors">Info Authors</a></li>
+                <li><a href="./index.html#paper-submission">Call for Papers</a></li>
+                <li><a href="./committee.html">Committee</a></li>
+                <li><a href="./previous.html">Previous workshops</a></li>
+                <li><a href="./index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+            
+       <!-- Main -->
+        
+        <div id="main-content" class="wrapper box-default">
+
+
+            <!-- Previous workshops -->
+            <section id="previous-workshops">
+                <header>
+                    <h2>Previous workshops</h2>
+                </header>
+
+                <div class="row box-default padding-default">
+                    <ul class="col-content">
+
+                        <li><a href="https://heteropar2024.uji.es/">2024 - Madrid, Spain</a></li>
+                        <li><a href="https://icl.utk.edu/workshops/heteropar2023">2023 - Limassol, Cyprus</a></li>
+                        <li><a href="https://heteropar2022.inesc-id.pt">2022 - Glasgow, UK</a></li>
+                        <li><a href="http://heteropar2021.bsc.es\">2021 - Lisbon, Portugal</a></li>
+                         <li><a href="https://heteropar2020.icis.pcz.pl\">2020 - Warsaw, Poland</a></li>
+                         <li><a href="https://www2.itec.aau.at/heteropar2019/\">2019 - Gottingen, Germany</a></li>
+                        <li><a href="https://hcl.ucd.ie/heteropar2018/">2018 - Turin, Italy</a></li>
+                        <li><a href="https://web.fe.up.pt/~heteropar2017/">2017 - Santiago de Compostela, Spain</a></li>
+                        <li><a href="http://www.ens-lyon.fr/LIP/ROMA/HeteroPar2016/">2016 - Grenoble, France</a></li>
+                        <li><a href="http://heteropar2015.ewi.tudelft.nl/">2015 - Vienna, Austria</a></li>
+                        <li><a href="http://heteropar2014.bordeaux.inria.fr/">2014 - Porto, Portugal</a></li>
+                        <li><a href="http://hpac.rwth-aachen.de/heteropar13/">2013 - Aachen, Germany</a></li>
+                        
+                    </ul>
+
+                    <ul class="col-content">
+                        <li><a href="http://pm.bsc.es/heteropar12/">2012 - Rhodes Island, Greece</a></li>
+                        <li><a href="http://icl.cs.utk.edu/heteropar2011/">2011 - Bordeaux, France</a></li>
+                        <li><a href="http://heteropar2010.ens-lyon.fr/">2010 - Ischia-Naples, Italy</a></li>
+                        <li>2009 - Delft, The Netherlands</li>
+                        <li><a href="http://www.labri.fr/perso/obeaumon/heteropar07/">2007 - Austin, Texas, USA</a></li>
+                        <li><a href="http://dis.um.es/heteropar/">2006 - Barcelona, Spain</a></li>
+                        <li>2005 - Boston, Massachusetts, USA</li>
+                        <li>2004 - Cork, Ireland</li>
+                        <li>2003 - Czestochowa, Poland</li>
+                        <li>2001 - Las Vegas, Nevada, USA</li>
+                    </ul>
+
+
+
+                </div>
+            
+                
+            </section>
+
+        </div>
+
+
+    </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <footer class="wrapper">
+                <!-- 
+                <section>
+                    <h2>HeteroPar'2021</h2>
+                </section>
+                <p class="copyright">&copy; Untitled.</p>
+                -->
+            </footer>
+        </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+
+        const links = document.querySelectorAll(".navigation a.scroll");
+
+        for (const link of links) {
+            link.addEventListener("click", clickHandler);
+        }
+
+        function clickHandler(e) {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+            const offsetTop = document.querySelector(href).offsetTop;
+
+            scroll({
+                top: offsetTop,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+
+</html>
